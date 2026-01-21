@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Aversi Kerugian Pada Pilihan Ojek Daring Ramah Lingkungan</title>
+</head>
+<body>
+  <h2>Aversi Kerugian Pada Pilihan Ojek Daring Ramah Lingkungan</h2>
+  <button onclick="openRandomLink()">Menuju Ke Halaman Survey</button>
+
+  <script>
+    function openRandomLink() {
+      const links = [
+        "https://docs.google.com/forms/d/e/1FAIpQLSd3EZLbkiz-fPDjZ4tVjVr6dtqE_LX_TtVx8fTEtsS99VpNgw/viewform?usp=header",
+        "https://docs.google.com/forms/d/e/1FAIpQLSd3EZLbkiz-fPDjZ4tVjVr6dtqE_LX_TtVx8fTEtsS99VpNgw/viewform?usp=header",
+        "https://docs.google.com/forms/d/e/1FAIpQLSdC2uH8lpozBNw0VCQZxg9aD2dWZH6DZnHx87AtfINOaYkBuA/viewform?usp=sf_link",
+        "https://docs.google.com/forms/d/e/1FAIpQLScrJhr77nPwTfE-XANbQUtATWTCZK6-uvc-0h772wjOmWVMpw/viewform?usp=sf_link",
+        "https://docs.google.com/forms/d/e/1FAIpQLSe6hfXDzDj7bq_LxT_02_vi-Mdngy3R9LXCMRv8Lri9DmJT0A/viewform?usp=publish-editor"
+      ];
+      const randomIndex = Math.floor(Math.random() * links.length);
+      const randomLink = links[randomIndex];
+      window.open(randomLink, "_blank");
+    }
+  </script>
+</body>
+</html>
